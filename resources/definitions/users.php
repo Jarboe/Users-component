@@ -1,6 +1,7 @@
 <?php
 
 return array(
+
     'db' => array(
         'table' => 'users',
             'order' => array(

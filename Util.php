@@ -65,7 +65,6 @@ class Util extends \Yaro\Jarboe\Component\AbstractUtil
     public static function check()
     {
         $errors = [];
-        
         if (config('cartalyst.sentinel.users.model') !== 'Jarboe\Component\Users\Model\User') {
             $errors[] = 'config [cartalyst.sentinel.users.model] should be [Jarboe\Component\Users\Model\User]';
         }
